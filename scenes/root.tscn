@@ -1,9 +1,15 @@
-[gd_scene load_steps=2 format=3 uid="uid://dxnf8x6vnyewv"]
+[gd_scene load_steps=3 format=3 uid="uid://dxnf8x6vnyewv"]
 
 [ext_resource type="Texture2D" uid="uid://cd1l4k7wx6ebx" path="res://assets/bg.drawio.png" id="1_xqald"]
+[ext_resource type="Texture2D" uid="uid://dl8ocxji8l2ld" path="res://assets/Ar-15.png" id="2_4bj84"]
 
 [node name="Root" type="Node2D"]
 
 [node name="Background" type="Sprite2D" parent="."]
 position = Vector2(960, 540)
 texture = ExtResource("1_xqald")
+
+[node name="Ar" type="Sprite2D" parent="."]
+position = Vector2(1282, 702)
+scale = Vector2(1.88, 1.88)
+texture = ExtResource("2_4bj84")
