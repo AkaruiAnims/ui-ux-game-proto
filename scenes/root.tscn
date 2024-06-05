@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://dxnf8x6vnyewv"]
+[gd_scene load_steps=4 format=3 uid="uid://dxnf8x6vnyewv"]
 
 [ext_resource type="Texture2D" uid="uid://cd1l4k7wx6ebx" path="res://assets/bg.drawio.png" id="1_xqald"]
 [ext_resource type="Texture2D" uid="uid://dl8ocxji8l2ld" path="res://assets/Ar-15.png" id="2_4bj84"]
+[ext_resource type="Texture2D" uid="uid://bh2014anflncl" path="res://assets/UX_UI lo-fi_no_bg_default.drawio.png" id="3_5u5lw"]
 
 [node name="Root" type="Node2D"]
 
@@ -13,3 +14,8 @@ texture = ExtResource("1_xqald")
 position = Vector2(1282, 702)
 scale = Vector2(1.88, 1.88)
 texture = ExtResource("2_4bj84")
+
+[node name="UI_Layer_1" type="Sprite2D" parent="."]
+position = Vector2(960.976, 527.987)
+scale = Vector2(1.02151, 1.02151)
+texture = ExtResource("3_5u5lw")
