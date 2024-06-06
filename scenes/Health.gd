@@ -14,3 +14,7 @@ func _process(delta):
 	if Input.is_action_pressed("Heal") && isHealed == false:
 		isHealed = true
 		texture = healed
+	
+	if Input.is_action_pressed("Exit"):
+		isHealed = false
+		texture = default

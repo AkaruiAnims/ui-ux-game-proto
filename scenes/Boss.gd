@@ -26,3 +26,9 @@ func _process(delta):
 	if isShot == true && isUlt == true && final == false:
 		final = true
 		texture = shot_ult
+	
+	if Input.is_action_pressed("Exit"):
+		isShot = false
+		isUlt = false
+		final = false
+		texture = default

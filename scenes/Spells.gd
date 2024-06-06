@@ -27,3 +27,9 @@ func _process(delta):
 			final = true
 			texture = ult_healed
 	
+	if Input.is_action_pressed("Exit"):
+		isHealed = false
+		isUlt = false
+		final = false
+		texture = default
+	

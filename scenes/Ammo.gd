@@ -20,5 +20,9 @@ func _process(delta):
 		isReloaded = true
 		texture = reloaded
 		
+	if Input.is_action_pressed("Exit"):
+		isShot = false
+		isReloaded = false
+		texture = default
 	
 	
